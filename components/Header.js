@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 
 export default function Header() {
   return (
@@ -19,10 +20,19 @@ export default function Header() {
           className='object-contain'
         />
       </div>
-      <h1>Right Side</h1>
-
       {/* Middle */}
+      <div className='relative mt-1'>
+        <div className='absolute top-2 left-2'>
+          <MagnifyingGlassIcon className='h-5 w-5 text-gray-500' />
+        </div>
+        <input
+          type='text'
+          placeholder='Search...'
+          className='bg-gray-50 pl-10 border-gray-500 text-sm focus:ring-black focus:border-black rounded-md'
+        />
+      </div>
       {/* Right */}
+      <h1>Right Side</h1>
     </div>
   );
 }
