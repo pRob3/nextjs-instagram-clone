@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
+import Feed from '@/components/Feed';
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-gray-50 min-h-screen'>
       <Head>
         <title>Insta Clone</title>
         <link rel='icon' href='/favicon.ico' />
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
 
       {/* Feed */}
+      <Feed />
 
       {/* Modal */}
     </div>
