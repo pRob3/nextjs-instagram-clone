@@ -10,7 +10,7 @@ export default function Feed() {
         {/* Posts */}
         <Post />
       </section>
-      <section className='hidden md:inline-grid col-span-1'>
+      <section className='hidden md:inline-grid md:col-span-1'>
         {/* Mini Profile */}
 
         {/* Suggestions */}
