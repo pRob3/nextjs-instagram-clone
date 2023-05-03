@@ -1,5 +1,8 @@
 import Image from 'next/image';
-import { MagnifyingGlassIcon, PlusCircleIcon } from '@heroicons/react/24/solid';
+import {
+  MagnifyingGlassIcon,
+  PlusCircleIcon,
+} from '@heroicons/react/24/outline';
 import { HomeIcon } from '@heroicons/react/24/solid';
 import { useSession, signIn, signOut } from 'next-auth/react';
 
